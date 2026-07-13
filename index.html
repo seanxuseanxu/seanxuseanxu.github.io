@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sean Xu's Personal Website</title>
+  <title>Sean Xu's website</title>
+  <style>
+      body {
+          margin: 40px; /* Adds 40px margin to all four sides */
+      }
+  </style>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 </head>
 <body>
-<h1>The Website of the all-knowing SEAN XU</h1>
+<h1>SEAN XU</h1>
 
-<img src="pic.png" alt="What I look like in real life" style="width:20">
+<!-- <img src="pic.png" alt="What I look like in real life" style="width:20"> -->
 
 <h3>About Me:</h3>
 <ul>
-	<li>I am a second-year physics student at the University of California, Berkeley.</li>
-	<li>I am from Richland, Washington, home of <a href="https://en.wikipedia.org/wiki/2800_Polar_Way">the world’s largest refrigerated warehouse.</a></li>
-	<li>I have two cats.</li>
-<img src="cat1.jpeg" alt="cat one" style="width:5">
-<img src="cat2.jpeg" alt="cat two" style="width:5">
+	<li>I am a fourth-year undergraduate physics student at the University of California, Berkeley.</li>
+	<li>Broadly, I am interested in making inferences using limited data. Since there will always be uncertainties in data, how well can we constrain the free parameters of a model using that data? In other words, how much useful information can we extract from imperfect snapshots of the universe? Finally, how do we ensure that our data-to-results pipeline is robust?</li>
+	<li>More specifically, I am interested in cosmology. Signs of evolving dark energy and the Hubble tension require a better accounting of systematic uncertainties and more data to constrain. New probes of cosmology such as gravitational lensing and gravitational waves can provide independent constraints on \(H_0\) and the dark energy equation of state with different systematic uncertainties.</li>
+	<li>Even more specifically, I am currently working on using strong gravitational lensing deflection ratios to constrain the dark energy equation of state. Gravitational lensing is a difficult problem to do Bayesian inference on. As such, in addition to modeling lenses, I have worked on parallelising our lens modeling code, GIGA-Lens, to take advantage of the high-performance computing resources available at the National Energy Research Scientific Computing Center (NERSC). I am also implementing new GPU-based inference algorithms to make lens modeling easier.</li>
+	<li>I am from Richland, Washington, home of <a href="https://en.wikipedia.org/wiki/2800_Polar_Way">the world’s largest refrigerated warehouse.</a> Also home to the Laser Interferometer Gravitational-wave Observatory (LIGO), and the Hanford site.</li>
+	<li>Here's my <a href="seanxu-cv.pdf">CV</a>.
+	<li>Here are my two cats, Skittles and Twix.</li>
+<img src="cat1.jpeg" alt="cat one" width="400">
+<img src="cat2.jpeg" alt="cat two" width="400">
 </ul>
-Still under construction, visit again soon!
 
 </body>
 </html>
